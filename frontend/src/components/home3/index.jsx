@@ -102,10 +102,10 @@ import "aos/dist/aos.css";
 import { useSpring, animated } from "react-spring";
 
 const options = [
-  { label: "Select category", value: "category" },
-  { label: "Angular", value: "Angular" },
-  { label: "Node Js", value: "Node Js" },
-  { label: "React", value: "React" },
+  { label: "Kategoriyani tanlash", value: "kategoriya" },
+  { label: "Scratch", value: "Scratch" },
+  { label: "UI/UX", value: "UI/UX" },
+  { label: "HTM&CSS", value: "HTML&CSS" },
   { label: "Python", value: "Python" },
 ];
 
@@ -315,7 +315,7 @@ export const Home3 = () => {
                       <div className="course-content-three">
                         <h4 className="text-info">
                         <span className="d-flex"> 
-                            <Number n={60} />+
+                            <Number n={10} />+
                          </span>
                         </h4>
                         <p>Sertifikatlar</p>
@@ -334,7 +334,7 @@ export const Home3 = () => {
                       <div className="course-content-three course-count ms-0">
                         <h4 className="text-green">
                         <span className="d-flex"> 
-                            <Number n={60} />K +
+                            <Number n={1000} /> +
                          </span>
                         </h4>
                         <p>Online Studentlar</p>
@@ -371,14 +371,12 @@ export const Home3 = () => {
 
             <div className="col-xl-6 col-lg-6 col-md-12" data-aos="fade-left">
               <div className="home-three-head" data-aos="fade-up">
-                <h2>Master the skills to drive your career</h2>
+                <h2>Dasturlashni eng kichik yoshlardan boshlab o`rganamiz</h2>
               </div>
               <div className="home-three-content" data-aos="fade-up">
                 <p>
-                  Get certified, master modern tech skills, and level up your
-                  career whether you’re starting out or a seasoned pro. 95% of
-                  eLearning learners report our hands-on content directly helped
-                  their careers.
+                  Statistikaga ko`ra, dasturchilarning 75% birinchi kodlarini 18yoshdan oldin yozishgan.
+                  Farzandingiz vaqtini bekorchi o`yinlar uchun emas, kasbiga yo`naltirishida biz sizga yordam bermaiz.
                 </p>
               </div>
               <div className="skils-group">
@@ -397,7 +395,7 @@ export const Home3 = () => {
                       </div>
                       <div className="skils-content">
                         <p className="mb-0">
-                          Get certified with 100+ certification courses
+                          10+ kurslarda dasturlash, kompyuter savodxonligi bo`yicha ta`lim ol
                         </p>
                       </div>
                     </div>
@@ -416,7 +414,7 @@ export const Home3 = () => {
                       </div>
                       <div className="skils-content">
                         <p className="mb-0">
-                          Build skills your way, from labs to courses
+                         Asosan dasturlar yaratish orqali, amaliyot bilan o`rgan
                         </p>
                       </div>
                     </div>
@@ -435,7 +433,7 @@ export const Home3 = () => {
                       </div>
                       <div className="skils-content">
                         <p className="mb-0">
-                          Stay motivated with engaging instructors
+                          O`z sohasining yetuk mutaxasislaridan ta`lim ol
                         </p>
                       </div>
                     </div>
@@ -453,7 +451,7 @@ export const Home3 = () => {
                         />
                       </div>
                       <div className="skils-content">
-                        <p className="mb-0">Keep up with the latest in cloud</p>
+                        <p className="mb-0">O`z kelajagingni hozirdan o`zgartir, barchasi sening qo`lingda!</p>
                       </div>
                     </div>
                   </div>
@@ -476,12 +474,12 @@ export const Home3 = () => {
               >
                 <div className="row align-items-center d-flex justify-content-between">
                   <div className="col-lg-8 col-sm-12">
-                    <h2>Choose favourite Course from top Category</h2>
+                    <h2>O`zing qiziqtirgan bo`limlardan birini tanla</h2>
                   </div>
                   <div className="col-lg-4 col-sm-12">
                     <div className="see-all">
                       <Link to="/course-details">
-                        See all
+                        Hammasini ko`rish
                         <span className="see-all-icon">
                           <i className="fas fa-arrow-right"></i>
                         </span>
@@ -509,12 +507,12 @@ export const Home3 = () => {
               >
                 <div className="row align-items-center d-flex justify-content-between">
                   <div className="col-lg-6 col-sm-8">
-                    <h2>Courses</h2>
+                    <h2>Kurslar</h2>
                   </div>
                   <div className="col-lg-6 col-sm-4">
                     <div className="see-all">
                       <Link to="#">
-                        See all
+                        Hammasini ko`rish
                         <span className="see-all-icon">
                           <i className="fas fa-arrow-right"></i>
                         </span>
@@ -539,7 +537,7 @@ export const Home3 = () => {
                         updateToggle(1);
                       }}
                     >
-                      All
+                      Hammasi
                     </Link>
 
                     <Link
@@ -554,7 +552,7 @@ export const Home3 = () => {
                         updateToggle(2);
                       }}
                     >
-                      Most popular
+                      Eng mashxurlari
                     </Link>
 
                     <Link
@@ -569,7 +567,7 @@ export const Home3 = () => {
                         updateToggle(3);
                       }}
                     >
-                      Business
+                      5yosh+ kurslar
                     </Link>
 
                     <Link
@@ -584,7 +582,7 @@ export const Home3 = () => {
                         updateToggle(4);
                       }}
                     >
-                      Design
+                      O`yinlar
                     </Link>
 
                     <Link
@@ -599,7 +597,7 @@ export const Home3 = () => {
                         updateToggle(5);
                       }}
                     >
-                      Music
+                     Dizayn
                     </Link>
 
                     <Link
@@ -614,7 +612,7 @@ export const Home3 = () => {
                         updateToggle(6);
                       }}
                     >
-                      Programming
+                      Dasturlash asoslari
                     </Link>
 
                     <Link
@@ -4599,17 +4597,16 @@ export const Home3 = () => {
           <div className="row align-items-center">
             <div className="col-lg-9 col-md-8 col-sm-12">
               <div className="cta-content">
-                <h2>Transform Access To Education</h2>
+                <h2> Dasturlashga birinchi qadamingni qo`y</h2>
                 <p>
-                  Create an account to receive our newsletter, course
-                  recommendations and promotions.
+                  Ro`yxatdan o`t va shu zahoti bepul va pullik kurslar yordamida dasturlashni o'rganishni boshla. 
                 </p>
               </div>
             </div>
             <div className="col-lg-3 col-md-4 col-sm-12">
               <div className="transform-button-three">
                 <Link to="/register" className="btn btn-action">
-                  Get Started Now
+                  Hoziroq ro`yxatdan o`t
                 </Link>
               </div>
             </div>
@@ -4617,602 +4614,8 @@ export const Home3 = () => {
         </div>
       </section>
       {/* CTA */}
-      {/* Achieve your Goals */}
-      <section className="home-three-goals">
-        <div className="container">
-          <div className="row align-items-center">
-            {/* Col */}
-            <div className="col-xl-3 col-lg-12 col-md-12" data-aos="fade-down">
-              <div className="acheive-goals-main">
-                <h2>Acheive you Goals with DreamsLMS</h2>
-              </div>
-            </div>
-            {/* Col */}
+    
 
-            {/* Col */}
-            <div
-              className="col-xl-3 col-lg-4 col-md-4 col-12"
-              data-aos="fade-down"
-            >
-              <div className="acheive-goals">
-                <div className="acheive-elips-one">
-                  <img src={Ellipse1} alt="" />
-                </div>
-                <div className="acheive-goals-content text-center course-count ms-0">
-                  <h4>
-                  <span className="d-flex"> 
-                    <Number n={253085} />
-                  </span>
-                  </h4>
-                  <p>Students Enrolled all over World</p>
-                </div>
-              </div>
-            </div>
-            {/* Col */}
-
-            {/* Col */}
-            <div
-              className="col-xl-3 col-lg-4 col-md-4 col-12"
-              data-aos="fade-down"
-            >
-              <div className="acheive-goals">
-                <div className="acheive-elips-two">
-                  <img src={Ellipse2} alt="" />
-                </div>
-                <div className="acheive-goals-content text-center course-count ms-0">
-                  <h4>
-                  <span className="d-flex"> 
-                            <Number n={1205} />
-                         </span>
-                  </h4>
-                  <p>Total Courses on our Platform</p>
-                </div>
-              </div>
-            </div>
-            {/* Col */}
-
-            {/* Col */}
-            <div
-              className="col-xl-3 col-lg-4 col-md-4 col-12"
-              data-aos="fade-down"
-            >
-              <div className="acheive-goals">
-                <div className="acheive-elips-three">
-                  <img src={Ellipse3} alt="" />
-                </div>
-                <div className="acheive-goals-content text-center course-count ms-0">
-                  <h4>
-                  <span className="d-flex"> 
-                            <Number n={56} />
-                         </span>
-                  </h4>
-                  <p>Countries of Students </p>
-                </div>
-              </div>
-            </div>
-            {/* Col */}
-          </div>
-        </div>
-      </section>
-      {/* Achieve your Goals */}
-
-      {/* Accelerate Cloud */}
-      <section className="accelerate-cloud-three">
-        <div className="container">
-          <div className="shapes-three-right">
-            <img className="accelerate-one" src={Shape01} alt="" />
-            <img className="accelerate-two" src={Pattern03} alt="" />
-          </div>
-          <div className="shapes-three-left">
-            <img className="accelerate-three" src={Pattern02} alt="" />
-            <img className="accelerate-four" src={Shape02} alt="" />
-            <img className="accelerate-five" src={Pattern04} alt="" />
-          </div>
-          <div
-            className="home-three-head section-header-title"
-            data-aos="fade-up"
-          >
-            <div className="row align-items-center d-flex justify-content-between">
-              <div className="col-lg-6 col-md-12">
-                <div className="home-three-head">
-                  <h2 className="text-white">
-                    Accelerate cloud success with hands-on learning at scaler
-                  </h2>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12">
-                <p className="accelerate-three-business">
-                  96% of eLearning for Business customers see improved results
-                  within six months. Whether you’re a team of 10 or 10,000,
-                  faster cloud fluency starts here.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Award Winning */}
-          <div className="award-one">
-            <div className="row align-items-center">
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 col-12"
-                data-aos="fade-right"
-              >
-                <div className="award-three-images-one">
-                  <img
-                    className="img-fluid"
-                    src={Award01}
-                    alt="image-banner"
-                    title="image-banner"
-                  />
-                </div>
-              </div>
-
-              <div className="col-xl-6 col-lg-6 col-md-6 col-12">
-                <div className="award-three-content-one">
-                  <div className="award-list-info" data-aos="fade-up">
-                    <div className="award-win-icon">
-                      <img src={AwardSvg} alt="certified" />
-                    </div>
-                    <div className="award-list-content">
-                      <h2>Award Winning Course Management</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quam dolor fermentum massa viverra congue proin. A
-                        volutpat eget ultrices velit nunc orci. Commodo quis
-                        integer a felis ac vel mauris a morbi. Scelerisque{" "}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="award-list d-flex align-items-center">
-                    <span className="award-icon">
-                      <img src={CheckRound1} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                  <div className="award-list d-flex align-items-center">
-                    <span className="award-icon">
-                      <img src={CheckRound1} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                  <div
-                    className="award-list mb-0 d-flex align-items-center"
-                    data-aos="fade-up"
-                  >
-                    <span className="award-icon">
-                      <img src={CheckRound1} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Award Winning	 */}
-
-          {/* Learn Anything */}
-          <div className="learn-anything">
-            <div className="row align-items-center">
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 col-12"
-                data-aos="fade-up"
-              >
-                <div className="award-three-content-two">
-                  <div className="award-list-info">
-                    <div className="award-win-icon">
-                      <img className="img-fluid" src={Time} alt="certified" />
-                    </div>
-                    <div className="award-list-content">
-                      <h2>Learn anything from anywhere anytime</h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quam dolor fermentum massa viverra congue proin. A
-                        volutpat eget ultrices velit nunc orci. Commodo quis
-                        integer a felis ac vel mauris a morbi. Scelerisque{" "}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="award-list d-flex align-items-center">
-                    <span className="award-icon">
-                      <img src={CheckRound2} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                  <div className="award-list d-flex align-items-center">
-                    <span className="award-icon">
-                      <img src={CheckRound2} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                  <div className="award-list d-flex align-items-center">
-                    <span className="award-icon">
-                      <img src={CheckRound2} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 col-12"
-                data-aos="fade-right"
-              >
-                <div className="award-three-images-two">
-                  <img
-                    className="img-fluid"
-                    src={LearnAnything}
-                    alt="image-banner"
-                    title="image-banner"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Learn Anything */}
-
-          {/* Development Career */}
-          <div className="development-carrer">
-            <div className="row align-items-center">
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 col-12"
-                data-aos="fade-right"
-              >
-                <div className="award-three-images-three">
-                  <img
-                    className="img-fluid"
-                    src={Certification}
-                    alt="image-banner"
-                    title="image-banner"
-                  />
-                </div>
-              </div>
-
-              <div
-                className="col-xl-6 col-lg-6 col-md-6 col-12"
-                data-aos="fade-up"
-              >
-                <div className="award-three-content-one">
-                  <div className="award-list-info">
-                    <div className="award-win-icon">
-                      <img
-                        className="img-fluid"
-                        src={Winning}
-                        alt="certified"
-                      />
-                    </div>
-                    <div className="award-list-content">
-                      <h2>
-                        Certification for solid development of your Carrer
-                      </h2>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quam dolor fermentum massa viverra congue proin. A
-                        volutpat eget ultrices velit nunc orci. Commodo quis
-                        integer a felis ac vel mauris a morbi. Scelerisque{" "}
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="award-list d-flex align-items-center">
-                    <span className="award-icon">
-                      <img src={CheckRound3} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                  <div className="award-list d-flex align-items-center">
-                    <span className="award-icon">
-                      <img src={CheckRound3} alt="" className="img-fluid" />
-                    </span>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Development Career */}
-        </div>
-      </section>
-      {/* Accelerate Cloud */}
-      {/* Trending Courses Three */}
-      <section className="home-three-trending">
-        <div className="container">
-          <div className="row">
-            <div
-              className="home-three-head section-header-title"
-              data-aos="fade-up"
-            >
-              <div className="row align-items-center d-flex justify-content-between">
-                <div className="col-lg-12">
-                  <h2>Most Trending Courses</h2>
-                </div>
-              </div>
-            </div>
-            <Trending3 />
-          </div>
-          {/* Favorite Course */}
-        </div>
-      </section>
-      {/* Trending Courses Three */}
-      {/* Feature Course */}
-      <section className="gallery-three">
-        <div className="container">
-          <div
-            className="home-three-head section-header-title"
-            data-aos="fade-up"
-          >
-            <div className="row align-items-center d-flex justify-content-between">
-              <div className="col-lg-6 col-sm-12">
-                <h2>Courses taught by real instructor</h2>
-              </div>
-              <div className="col-lg-6 col-sm-12">
-                <div className="see-all">
-                  <Link to="/instructor-list">
-                    See all
-                    <span className="see-all-icon">
-                      <i className="fas fa-arrow-right"></i>
-                    </span>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="courses-gallery-three">
-            <div className="row">
-              {/* Col */}
-              <div className="col-lg-5 col-md-5">
-                <div className="row">
-                  <div className="col-lg-7 col-md-7">
-                    <div className="gallery-three-img-item">
-                      <div className="content-three-main">
-                        <div className="gallery-img">
-                          <img src={Gallery1} alt="Instructor" />
-                        </div>
-                        <div className="content-three-overlay">
-                          <div className="content-three-text">
-                            <div>
-                              <h6>Patricia</h6>
-                              <p>Node Js</p>
-                            </div>
-                            <div>
-                              <Link
-                                to="/instructor-list"
-                                className="content-three-arrows"
-                              >
-                                <span>
-                                  <i className="fas fa-arrow-right"></i>
-                                </span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-5 col-md-5">
-                    <div className="gallery-three-img-item">
-                      <div className="content-three-main">
-                        <div className="gallery-img">
-                          <img src={Gallery2} alt="Instructor" />
-                        </div>
-                        <div className="content-three-overlay">
-                          <div className="content-three-text">
-                            <div>
-                              <h6>Patricia</h6>
-                              <p>Node Js</p>
-                            </div>
-                            <div>
-                              <Link
-                                to="/instructor-list"
-                                className="content-three-arrows"
-                              >
-                                <span>
-                                  <i className="fas fa-arrow-right"></i>
-                                </span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-5 col-md-5">
-                    <div className="gallery-three-img-item mb-0">
-                      <div className="content-three-main">
-                        <div className="gallery-img">
-                          <img src={Gallery3} alt="Instructor" />
-                        </div>
-                        <div className="content-three-overlay">
-                          <div className="content-three-text">
-                            <div>
-                              <h6>Patricia</h6>
-                              <p>Node Js</p>
-                            </div>
-                            <div>
-                              <Link
-                                to="/instructor-list"
-                                className="content-three-arrows"
-                              >
-                                <span>
-                                  <i className="fas fa-arrow-right"></i>
-                                </span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-7 col-md-7">
-                    <div className="gallery-three-img-item mb-0">
-                      <div className="content-three-main">
-                        <div className="gallery-img">
-                          <img src={Gallery4} alt="Instructor" />
-                        </div>
-                        <div className="content-three-overlay">
-                          <div className="content-three-text">
-                            <div>
-                              <h6>Patricia</h6>
-                              <p>Node Js</p>
-                            </div>
-                            <div>
-                              <Link
-                                to="/instructor-list"
-                                className="content-three-arrows"
-                              >
-                                <span>
-                                  <i className="fas fa-arrow-right"></i>
-                                </span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Col */}
-
-              {/* Col */}
-              <div className="col-lg-3 col-md-3">
-                <div className="gallery-three-img-item mb-0">
-                  <div className="content-three-main">
-                    <div className="gallery-img">
-                      <img src={Gallery5} alt="Instructor" />
-                    </div>
-                    <div className="content-three-overlay">
-                      <div className="content-three-text">
-                        <div>
-                          <h6>Patricia</h6>
-                          <p>Node Js</p>
-                        </div>
-                        <div>
-                          <Link
-                            to="/instructor-list"
-                            className="content-three-arrows"
-                          >
-                            <span>
-                              <i className="fas fa-arrow-right"></i>
-                            </span>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Col */}
-
-              {/* Col */}
-              <div className="col-lg-4 col-md-4">
-                <div className="row">
-                  <div className="col-lg-12 col-md-12">
-                    <div className="gallery-three-img-item">
-                      <div className="content-three-main">
-                        <div className="gallery-img">
-                          <img src={Gallery6} alt="Instructor" />
-                        </div>
-                        <div className="content-three-overlay">
-                          <div className="content-three-text">
-                            <div>
-                              <h6>Patricia</h6>
-                              <p>Node Js</p>
-                            </div>
-                            <div>
-                              <Link
-                                to="/instructor-list"
-                                className="content-three-arrows"
-                              >
-                                <span>
-                                  <i className="fas fa-arrow-right"></i>
-                                </span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="gallery-three-img-item mb-0">
-                      <div className="content-three-main">
-                        <div className="gallery-img">
-                          <img src={Gallery7} alt="Instructor" />
-                        </div>
-                        <div className="content-three-overlay">
-                          <div className="content-three-text">
-                            <div>
-                              <h6>Patricia</h6>
-                              <p>Node Js</p>
-                            </div>
-                            <div>
-                              <Link
-                                to="/instructor-list"
-                                className="content-three-arrows"
-                              >
-                                <span>
-                                  <i className="fas fa-arrow-right"></i>
-                                </span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-6">
-                    <div className="gallery-three-img-item mb-0">
-                      <div className="content-three-main">
-                        <div className="gallery-img">
-                          <img src={Gallery8} alt="Instructor" />
-                        </div>
-                        <div className="content-three-overlay">
-                          <div className="content-three-text">
-                            <div>
-                              <h6>Patricia</h6>
-                              <p>Node Js</p>
-                            </div>
-                            <div>
-                              <Link
-                                to="/instructor-list"
-                                className="content-three-arrows"
-                              >
-                                <span>
-                                  <i className="fas fa-arrow-right"></i>
-                                </span>
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Col */}
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Feature Course */}
 
       {/* Become and Instructor */}
       <section className="home-three-become">
@@ -5220,17 +4623,16 @@ export const Home3 = () => {
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-8" data-aos="fade-up">
               <div className="become-content-three">
-                <h2>Become An Instructor</h2>
+                <h2>Malakali dasturchimsiz?</h2>
                 <p>
-                  Top instructors from around the world teach millions of
-                  students on DreamsLMS.
+                 O`z bilimingizni barcha bilan baham ko`ring va passiv daromad qilishni boshlang
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-4" data-aos="fade-up">
               <div className="become-button-three">
                 <Link to="/register" className="btn btn-become">
-                  Get Started Now
+                  Hoziroq ro`yxatdan o`t
                 </Link>
               </div>
             </div>
@@ -5239,20 +4641,7 @@ export const Home3 = () => {
       </section>
       {/* Become and Instructor */}
 
-      {/* Leading companies */}
-      <section className="lead-companies-three">
-        <div className="container">
-          <div className="home-three-head section-header-title aos-init aos-animate">
-            <div className="row align-items-center d-flex justify-content-between">
-              <div className="col-lg-12" data-aos="fade-up">
-                <h2>500+ Leading Universities And Companies</h2>
-              </div>
-            </div>
-          </div>
-          <Companies />
-        </div>
-      </section>
-      {/* Leading companies */}
+      
 
       {/* Testimonial */}
       <section className="testimonial-three">
@@ -5268,9 +4657,9 @@ export const Home3 = () => {
                 data-aos="fade-down"
               >
                 <div className="become-content">
-                  <h2 className="aos-init aos-animate">They Trusted us</h2>
+                  <h2 className="aos-init aos-animate">Ular bizga ishonishdi</h2>
                   <h4 className="aos-init aos-animate">
-                    We are a very happy because we have a happy customer
+                    Mijozlarimizga sifatli xizmat ko`rsatishdan mamnunmiz
                   </h4>
                 </div>
 
@@ -5280,7 +4669,7 @@ export const Home3 = () => {
                   className="btn btn-action aos-init aos-animate"
                   data-aos="fade-up"
                 >
-                  View all Testimonial
+                  Barcha fikrlarni ko`rish
                 </Link>
                 {/* View all Testimonail */}
               </div>
@@ -5313,12 +4702,12 @@ export const Home3 = () => {
           >
             <div className="row align-items-center d-flex justify-content-between">
               <div className="col-lg-6 col-md-8">
-                <h2>Latest news & Events</h2>
+                <h2>Yangiliklar &  Foydali ma`lumotlar</h2>
               </div>
               <div className="col-lg-6 col-md-4">
                 <div className="see-all">
                   <Link to="/blog-list">
-                    See all
+                    Hammasini ko`rish
                     <span className="see-all-icon">
                       <i className="fas fa-arrow-right"></i>
                     </span>

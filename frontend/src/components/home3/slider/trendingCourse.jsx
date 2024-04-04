@@ -51,16 +51,15 @@ export const Trending3 = () => {
       <div className="trending-three-item">
         <div className="trending-content-top trending-bg-one">
           <div className="course-title-one">
-            <Link to="/">Personalized Learning</Link>
+            <Link to="/">Individual yondashuv</Link>
           </div>
           <div className="trending-three-text">
             <Link to="/">
               <h3 className="title instructor-text">
-                Build Responsive Websites with HTML
+                Pygame da o`yinlar yaratish
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam
-                dolor
+                Python dasturlash tili asoslarini bilsangiz, birinchi o`yiningizni 40 daqiqa ichida yaratamiz
               </p>
             </Link>
           </div>
@@ -68,11 +67,11 @@ export const Trending3 = () => {
           <div className="trending-counts-info d-flex align-items-center justify-content-between">
             <div className="trending-three-counts d-flex align-items-center">
               <img src={StudentIconThree} alt="student-icon" />
-              <p>400 Students</p>
+              <p>400 o`quvchilar</p>
             </div>
             <div className="price-three-time d-inline-flex align-items-center">
               <i className="fa-regular fa-clock me-2"></i>
-              <span>6hr 30min</span>
+              <span>2 soat 40 daqiqa</span>
             </div>
           </div>
         </div>
@@ -80,8 +79,8 @@ export const Trending3 = () => {
           <div className="trending-price-group d-flex align-items-center justify-content-between">
             <div className="trending-group-view">
               <div className="trending-price-three">
-                <h3>$300</h3>
-                <span>$99.00</span>
+                <h3>199,000 SO'M</h3>
+                <span>199,000 SO'M</span>
               </div>
             </div>
             <div className="trending-footer-img">

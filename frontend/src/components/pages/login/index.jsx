@@ -70,14 +70,13 @@ const Login = () => {
                   />
                 </div>
                 <div className="mentor-course text-center">
-                  <h2>
-                    Welcome to <br />
-                    DreamsLMS Courses.
+                <h2>
+                  Codecafe.uz ga <br />
+                    Xush kelibsiz!
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                  Siz bu yerda dasturlashga oid barcha bilimlarni olishingiz mumkin. 
+                    Bepul va hamyonbop kurslarni o`qish uchun ro`yxatdan o`ting.
                   </p>
                 </div>
               </div>
@@ -90,14 +89,13 @@ const Login = () => {
                   />
                 </div>
                 <div className="mentor-course text-center">
-                  <h2>
-                    Welcome to <br />
-                    DreamsLMS Courses.
+                <h2>
+                  Codecafe.uz ga <br />
+                    Xush kelibsiz!
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                  Siz bu yerda dasturlashga oid barcha bilimlarni olishingiz mumkin. 
+                    Bepul va hamyonbop kurslarni o`qish uchun ro`yxatdan o`ting.
                   </p>
                 </div>
               </div>
@@ -110,14 +108,13 @@ const Login = () => {
                   />
                 </div>
                 <div className="mentor-course text-center">
-                  <h2>
-                    Welcome to <br />
-                    DreamsLMS Courses.
+                <h2>
+                  Codecafe.uz ga <br />
+                    Xush kelibsiz!
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                  Siz bu yerda dasturlashga oid barcha bilimlarni olishingiz mumkin. 
+                    Bepul va hamyonbop kurslarni o`qish uchun ro`yxatdan o`ting.
                   </p>
                 </div>
               </div>
@@ -136,21 +133,21 @@ const Login = () => {
                       alt="Logo"
                     />
                     <div className="back-home">
-                      <Link to="/">Back to Home</Link>
+                      <Link to="/">Asosiy saxifaga qaytish</Link>
                     </div>
                   </div>
-                  <h1>Sign into Your Account</h1>
+                  <h1>Tizimga kirish</h1>
                   <form action="/reactjs/instructor-dashboard">
                     <div className="form-group">
                       <label className="form-control-label">Email</label>
                       <input
                         type="email"
                         className="form-control"
-                        placeholder="Enter your email address"
+                        placeholder="Emailingizni kiriting"
                       />
                     </div>
                     <div className="form-group">
-                      <label className="form-control-label">Password</label>
+                      <label className="form-control-label">Parol</label>
                       <div className="pass-group">
                       <input type={passwordType} onChange={handlePasswordChange} value={passwordInput} name="password" className="form-control" placeholder="Password" />
                      <span className="toggle-password feather-eye" onClick={togglePassword}>
@@ -161,14 +158,14 @@ const Login = () => {
                     <div className="forgot">
                       <span>
                         <Link className="forgot-link" to="/forgot-password">
-                          Forgot Password ?
+                          Parol esingizdan chiqdimi?
                         </Link>
                       </span>
                     </div>
                     <div className="remember-me">
                       <label className="custom_check mr-2 mb-0 d-inline-flex remember-me">
                         {" "}
-                        Remember me
+                        Meni eslab qolinsin
                         <input type="checkbox" name="radio" />
                         <span className="checkmark" />
                       </label>
@@ -178,7 +175,7 @@ const Login = () => {
                         className="btn btn-start"
                         type="submit"
                       >
-                        Sign In
+                        Kirish
                       </button>
                     </div>
                   </form>
@@ -186,7 +183,7 @@ const Login = () => {
               </div>
               <div className="google-bg text-center">
                 <span>
-                  <Link to="#">Or sign in with</Link>
+                  <Link to="#">Yoki </Link>
                 </span>
                 <div className="sign-google">
                   <ul>
@@ -197,7 +194,7 @@ const Login = () => {
                           className="img-fluid"
                           alt="Logo"
                         />{" "}
-                        Sign In using Google
+                         Google bilan kirish
                       </Link>
                     </li>
                     <li>
@@ -207,13 +204,13 @@ const Login = () => {
                           className="img-fluid"
                           alt="Logo"
                         />
-                        Sign In using Facebook
+                        Facebook bilan kirish
                       </Link>
                     </li>
                   </ul>
                 </div>
                 <p className="mb-0">
-                  New User ? <Link to="/register">Create an Account</Link>
+                  Yangi foydalanuvchimisiz ? <Link to="/register">Ro'yxatdan o`tish</Link>
                 </p>
               </div>
             </div>

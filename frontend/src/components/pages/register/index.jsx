@@ -67,13 +67,12 @@ const Register = (props) => {
                 </div>
                 <div className="mentor-course text-center">
                   <h2>
-                    Welcome to <br />
-                    DreamsLMS Courses.
+                  Codecafe.uz ga <br />
+                    Xush kelibsiz!
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                  Siz bu yerda dasturlashga oid barcha bilimlarni olishingiz mumkin. 
+                    Bepul va hamyonbop kurslarni o`qish uchun ro`yxatdan o`ting.
                   </p>
                 </div>
               </div>
@@ -83,13 +82,12 @@ const Register = (props) => {
                 </div>
                 <div className="mentor-course text-center">
                   <h2>
-                    Welcome to <br />
-                    DreamsLMS Courses.
+                    Barcha yoshlar uchun <br />
+                    5 yoshdan boshlab dasturlashni boshlang!
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                  Siz bu yerda dasturlashga oid barcha bilimlarni olishingiz mumkin. 
+                    Bepul va hamyonbop kurslarni o`qish uchun ro`yxatdan o`ting.
                   </p>
                 </div>
               </div>
@@ -99,13 +97,11 @@ const Register = (props) => {
                 </div>
                 <div className="mentor-course text-center">
                   <h2>
-                    Welcome to <br />
-                    DreamsLMS Courses.
+                    Bepul<br />
+                   Kurslar
                   </h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                   Platformada bepul kurslarni va hamyonbop narxlardagi kurslarni o`qib, bilim oling!
                   </p>
                 </div>
               </div>
@@ -119,17 +115,25 @@ const Register = (props) => {
                 <div className="img-logo">
                   <img src={logo} className="img-fluid" alt="Logo" />
                   <div className="back-home">
-                    <Link to="/">Back to Home</Link>
+                    <Link to="/">Bosh saxifaga qaytish</Link>
                   </div>
                 </div>
-                <h1>Sign up</h1>
+                <h1>Ro`yxatdan o`tish</h1>
                 <form action="/reactjs/login">
                   <div className="form-group">
-                    <label className="form-control-label">Full Name</label>
+                    <label className="form-control-label">Ismingiz</label>
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="Enter your Full Name"
+                      placeholder="Ismingizni kiriting"
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label className="form-control-label">Familyangiz</label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      placeholder="Familyangizni kiriting"
                     />
                   </div>
                   <div className="form-group">
@@ -137,13 +141,13 @@ const Register = (props) => {
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="Enter your email address"
+                      placeholder="Emailingizni kiriting"
                     />
                   </div>
                   <div className="form-group">
-                    <label className="form-control-label">Password</label>
+                    <label className="form-control-label">Parol</label>
                       <div className="pass-group" id="passwordInput">																	
-										<input className="form-control pass-input" placeholder="Enter your password" type={eye ? "password" : "text"}/>
+										<input className="form-control pass-input" placeholder="Parolingizni kiriting" type={eye ? "password" : "text"}/>
                     {/* <span onClick={onEyeClick} className={`fa toggle-password feather-eye" ${eye ? "fa-eye" : "fa-eye-slash" }`}/> */}
                     <span onClick={onEyeClick} className={`fa toggle-password feather-eye" ${eye ? "fa-eye" : "fa-eye-slash" }`}/>
 										<span className="toggle-password feather-eye"></span>
@@ -164,42 +168,42 @@ const Register = (props) => {
                         type="checkbox"
                         name="remember"
                       />
-                      I agree to the
-                      <Link to="/term-condition">Terms of Service</Link> and
-                      <Link to="/privacy-policy">Privacy Policy.</Link>
+                      Men roziman
+                      <Link to="/term-condition">Ishlatish qoidalariga</Link>va
+                      <Link to="/privacy-policy">shaxsiy ma`lumotlarim saqlanishiga</Link>
                     </label>
                   </div>
                   <div className="d-grid">
                     <button className="btn btn-primary btn-start" type="submit"
                       // onClick={() => navigate("/login")}
                     >
-                      Create Account
+                      Royxatdan o'tish
                     </button>
                   </div>
                 </form>
               </div>
               <div className="google-bg text-center">
                 <span>
-                  <Link to="#">Or sign in with</Link>
+                  <Link to="#">Yoki </Link>
                 </span>
                 <div className="sign-google">
                   <ul>
                     <li>
                       <Link to="#">
                         <img src={NetIcon1} className="img-fluid" alt="Logo" />
-                        Sign In using Google
+                        Google orqali kirish
                       </Link>
                     </li>
                     <li>
                       <Link to="#">
                         <img src={NetIcon2} className="img-fluid" alt="Logo" />
-                        Sign In using Facebook
+                        Facebook orqali kirish
                       </Link>
                     </li>
                   </ul>
                 </div>
                 <p className="mb-0">
-                  Already have an account? <Link to="/login">Sign in</Link>
+                 Ro'yxatdan o`tganmisiz? <Link to="/login">Kirish</Link>
                 </p>
               </div>
             </div>

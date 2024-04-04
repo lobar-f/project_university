@@ -56,11 +56,11 @@ export const TopCategories2 = () => {
             />
           </div>
           <div className="categories-content course-info">
-            <h3>Angular Development</h3>
+            <h3>Scratch </h3>
           </div>
           <div className="course-instructors">
             <div className="instructors-info">
-              <p className="me-4">Instructors</p>
+              <p className="me-4">O`qituchilar</p>
               <ul className="instructors-list">
                 <li>
                   <Link
@@ -96,7 +96,7 @@ export const TopCategories2 = () => {
                   </Link>
                 </li>
                 <li className="more-set">
-                  <Link to="/">80+</Link>
+                  <Link to="/">4+</Link>
                 </li>
               </ul>
             </div>
@@ -113,11 +113,11 @@ export const TopCategories2 = () => {
             />
           </div>
           <div className="categories-content course-info">
-            <h3>Pyhton Development</h3>
+            <h3>Pyhton Dasturlash tili</h3>
           </div>
           <div className="course-instructors">
             <div className="instructors-info">
-              <p className="me-4">Instructors</p>
+              <p className="me-4">O`qituchilar</p>
               <ul className="instructors-list">
                 <li>
                   <Link
@@ -153,7 +153,7 @@ export const TopCategories2 = () => {
                   </Link>
                 </li>
                 <li className="more-set">
-                  <Link to="/">80+</Link>
+                  <Link to="/">6+</Link>
                 </li>
               </ul>
             </div>
@@ -170,11 +170,11 @@ export const TopCategories2 = () => {
             />
           </div>
           <div className="categories-content course-info">
-            <h3>NODE JS Development</h3>
+            <h3>HTML&CSS</h3>
           </div>
           <div className="course-instructors">
             <div className="instructors-info">
-              <p className="me-4">Instructors</p>
+              <p className="me-4">O`qituchilar</p>
               <ul className="instructors-list">
                 <li>
                   <Link
@@ -210,7 +210,7 @@ export const TopCategories2 = () => {
                   </Link>
                 </li>
                 <li className="more-set">
-                  <Link to="/">80+</Link>
+                  <Link to="/">5+</Link>
                 </li>
               </ul>
             </div>

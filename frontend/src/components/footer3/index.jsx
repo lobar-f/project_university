@@ -19,16 +19,11 @@ export const Footer3 = () => {
                   </div>
                   <div className="footer-three-about">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Sit nulla gravida ut elit arcu egestas felis. Scelerisque
-                      at in magna dolor massa ipsum arcu lacus. Lobortis posuere
-                      justo nunc diam ac massa. Maecenas tellus adipiscing ac
-                      fames ut ac posuere. Aliquam, integer proin hendrerit
-                      euismod et.{" "}
+                    Biz sifat va narx uygunlashishi tarafdorimiz. Barcha darslar yuqori malakali o`qituvchilar tomonidan tuzilgan.{" "}
                     </p>
                   </div>
                   <div className="newsletter-title">
-                    <h6>Get Updates</h6>
+                    <h6>Yangiliklarga obuna bo`lish</h6>
                   </div>
                   <div className="box-form-newsletter">
                     <form className="form-newsletter">
@@ -39,7 +34,7 @@ export const Footer3 = () => {
                         placeholder="Enter your email here"
                       />
                       <button className="btn btn-default font-heading icon-send-letter">
-                        Subscribe Now
+                        Obuna bo`lish
                       </button>
                     </form>
                   </div>
@@ -50,22 +45,20 @@ export const Footer3 = () => {
               <div className="col-lg-3 col-md-3 col-12">
                 {/* Footer Widget */}
                 <div className="footer-widget-three footer-menu-three footer-three-right">
-                  <h6 className="footer-three-title">For Instructor</h6>
+                  <h6 className="footer-three-title">O`qituvchilar uchun</h6>
                   <ul>
                     <li>
-                      <Link to="/instructor-profile">Profile</Link>
+                      <Link to="/instructor-profile">Profil</Link>
                     </li>
                     <li>
-                      <Link to="/login">Login</Link>
+                      <Link to="/login">Kirish</Link>
                     </li>
                     <li>
-                      <Link to="/register">Register</Link>
+                      <Link to="/register">Registratsiya</Link>
                     </li>
+                   
                     <li>
-                      <Link to="/instructor-list">Instructor</Link>
-                    </li>
-                    <li>
-                      <Link to="/deposit-instructor-dashboard"> Dashboard</Link>
+                      <Link to="/deposit-instructor-dashboard"> Shaxsiy kabinet</Link>
                     </li>
                   </ul>
                 </div>
@@ -75,13 +68,13 @@ export const Footer3 = () => {
               <div className="col-lg-3 col-md-3 col-12">
                 {/* Footer Widget */}
                 <div className="footer-widget-three footer-menu-three">
-                  <h6 className="footer-three-title">For Student</h6>
+                  <h6 className="footer-three-title">O`quvchilar uchun</h6>
                   <ul>
                     <li>
-                      <Link to="/students-profile">Profile</Link>
+                      <Link to="/students-profile">Profil</Link>
                     </li>
                     <li>
-                      <Link to="/login">Login</Link>
+                      <Link to="/login">Kirish</Link>
                     </li>
                     <li>
                       <Link to="/register">Register</Link>
@@ -110,7 +103,7 @@ export const Footer3 = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="social-icon-three">
-                  <h6>Connect Socially</h6>
+                  <h6>Bizni kuzatib boring</h6>
                   <ul>
                     <li>
                       <Link
@@ -159,13 +152,13 @@ export const Footer3 = () => {
                       <Link to="/privacy-policy">Privacy Policy</Link>
                     </li>
                     <li>
-                      <Link to="/support">Contact Us</Link>
+                      <Link to="/support">Biz bilan aloqa</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="copyright-text-three">
                   <p className="mb-0">
-                    &copy; 2023 DreamsLMS. All rights reserved.
+                    &copy; 2024 codecafe.uz | Barcha xizmatlar litsenziyalangan
                   </p>
                 </div>
               </div>
