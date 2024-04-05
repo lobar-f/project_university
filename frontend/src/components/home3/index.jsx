@@ -463,38 +463,7 @@ export const Home3 = () => {
       </section>
       {/* Master Skills Career */}
 
-      {/* Favorite Course */}
-      <section className="home-three-favourite">
-        <div className="container">
-          <div className="row">
-            <div className="container">
-              <div
-                className="home-three-head section-header-title"
-                data-aos="fade-up"
-              >
-                <div className="row align-items-center d-flex justify-content-between">
-                  <div className="col-lg-8 col-sm-12">
-                    <h2>O`zing qiziqtirgan bo`limlardan birini tanla</h2>
-                  </div>
-                  <div className="col-lg-4 col-sm-12">
-                    <div className="see-all">
-                      <Link to="/course-details">
-                        Hammasini ko`rish
-                        <span className="see-all-icon">
-                          <i className="fas fa-arrow-right"></i>
-                        </span>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <TopCategories2 />
-            </div>
-          </div>
-          {/* Favorite Course */}
-        </div>
-      </section>
-      {/* Favorite Course */}
+  
 
       {/* Courses */}
       <section className="home-three-courses">
